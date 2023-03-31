@@ -44,7 +44,7 @@ ynh_replace_string --match_string=my_database_user --replace_string=$db_user --t
 ynh_replace_string --match_string=my_database_password --replace_string=$db_pwd --target_file=$install_dir/setup.php
 ynh_replace_string --match_string=name_of_my_database --replace_string=$db_name --target_file=$install_dir/setup.php
 
-ynh_add_config --template="../conf/setup.php.dist" --destination="$install_dir/setup.php"
+#ynh_add_config --template="../conf/setup.php.dist" --destination="$install_dir/setup.php"
 
 chmod 400 "$install_dir/setup.php"
 chown $app:$app "$install_dir/setup.php"
