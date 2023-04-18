@@ -7,7 +7,7 @@ description.fr = "Cataloguing and data/media management application "
 
 version = "1.7.17~ynh1"
 
-maintainers = ["johndoe"]
+maintainers = [""]
 
 [upstream]
 license = "GPL-3.0-only"
